@@ -1,0 +1,394 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+
+/* /images */
+.icon-text {
+  width: 7%;
+  height: auto;
+}
+.imgAtel{
+  width: 40%;
+}
+.card-header>img{
+  width: 100%;
+}
+.icon-atel{
+  width: 3%;
+}
+
+
+/* navbar */
+#current  a{
+  color: white;
+  border: solid 2px #FFB7C0;
+}
+.photoProf>img{
+  width: 14%;
+}
+.prof{
+  padding-right: 0;
+}
+.atelier{
+  width: 35%;
+}
+
+
+/* navbar */
+.bgnav{
+  background-color: #FFC4CB;
+}
+.navbar-brand img{
+  height: 70px;
+  width: 70px;
+}
+.nav-link{
+  font-size: 1.2em;
+  color:  white;
+  font-weight: bold;
+  padding-left: 30px;
+}
+.navbar-brand{
+  font-weight: 200;
+  font-size: 2.4em;
+
+  padding-right: 30px;
+  color: white;
+}
+.nav-item{
+  padding-left: 30px;
+}
+.dropdown-menu{
+  margin-left: 23px;
+}
+
+/* parallax */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-11, .bgimg-4, .bgimg-22{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1{
+  background-image: url("../img/lotus4.jpg");
+  min-height: 70%;
+}
+.bgimg-11{
+  background-image: url("../img/lotus4.jpg");
+  min-height: 35%;
+}
+.bgimg-2 {
+  background-image: url("../img/cabinetIn2.jpg");
+  min-height: 50%;
+}
+.bgimg-22{
+  background-image: url("../img/lotus8.jpg");
+  min-height: 50%;
+}
+.bgimg-3 {
+  background-image: url("../img/lotus3.jpg");
+  min-height: 50%;
+}
+.bgimg-4 {
+  background-image: url("../img/lotus4.jpg");
+  min-height: 50%;
+}
+.overlay-image .image {
+ width: 100%;
+ height: 100%;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 18%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.nom{
+  padding-top: 15px;
+  text-align: center;
+  word-spacing: 0.2em;
+
+  font-size: 3.8em;
+}
+.seance{
+  padding-left: 150px;
+}
+h1{
+  padding-top: 15px;
+  text-align: center;
+  word-spacing: 0.2em;
+}
+h2{
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.h2{
+  padding-top: 10px;
+  font-size: 2.5em;
+  word-spacing: 0.2em;
+}
+h3{
+  padding-top: 20px;
+  word-spacing: 0.2em;
+  padding-bottom:30px;
+}
+.proverbe{
+  word-spacing: 0.2em;
+  padding-top: 4em;
+  font-size: 1.9em;
+  color:#5A5A5F;
+}
+.p2{
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.8em;
+}
+.bienV{
+  font-size: 1.8em;
+  padding-bottom: 50px;
+}
+.pAtel{
+  font-size: 2.5em;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+h4{
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+p{
+  font-size: 1.3em;
+  padding-top: 15px;
+}
+.hf{
+  color: #888888;
+  border: 1px solid #F3969A;
+  padding: 5px 5px;
+}
+.motPass{
+  font-size: 1.2em;
+}
+.mil{
+  font-size: 1.6em;
+  padding: 0;
+}
+
+
+/*btn*/
+.contmoi{
+  padding-top: 0px;
+  word-spacing: 0.2em;
+  padding-bottom:5px;
+  font-size: 1.4em;
+}
+.pres{
+  background-color: white;
+  padding: 80px 80px;
+}
+.btn{
+  font-size: 1.4em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.btn1{
+  font-size: 1.5em;
+  margin-top: 75px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.btn2{
+  font-size: 1.5em;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.btnAtel{
+  font-size: 0.5em;
+}
+.btnf{
+  font-size: 1.1em;
+}
+
+.btContact{
+  width: 12em;
+  height: 1.8em;
+  padding: 0 0;
+  border: 1px solid #888888;
+  color: #888888;
+}
+.consult>p{
+  padding-top: 3%;
+}
+
+
+/* card */
+.card-text{
+  font-size: 1em;
+  padding-top: 10px;
+}
+.card-text>p {
+  text-align: left;
+  font-size: 1.1em;
+}
+.prof{
+  margin-top: 20px;
+}
+.hautPage{
+  text-align: right;
+  padding-right: 100px;
+  padding-bottom: 30px;
+}
+
+
+/* footer */
+footer{
+  background-color: #E1DEE5;
+}
+ol{
+  list-style-type: none;
+  padding-top: 10px;
+}
+li{
+  padding-top: 5px;
+  font-size: 14px;
+}
+.fas{
+  padding-right: 5px;
+}
+
+.tex{
+  font-size: 11px;
+  background-color: #858B91;
+  color: white;
+  padding-bottom: 2px;
+}
+iframe{
+  margin-top: 20px;
+  width: 40%;
+  height: 80%;
+  border: 5px solid #636F7F;
+}
+.cont{
+  margin-left: 100px;
+  margin-top: 100px
+}
+i{
+  padding-bottom: 10px;
+  padding-left: 3px;
+}
+.bilan{
+  padding-left: 140px;
+}
+
+
+/* calendrier */
+tr:nth-child(even) td {
+    background:  #f1eded;
+}
+tr:nth-child(odd) td {
+    background: #f9f7f7;
+}
+th{
+    width: 14em;
+    text-align: center;
+    background-color:#cfcbcb;
+    color : #4c4949;
+    height: 5em;
+}
+td{
+    height: 5em;
+    text-align: center;
+}
+table{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+.month{
+  padding: 1.4em;
+  background-color: #cfcbcb;
+  border: #cfcbcb;
+  color: #4c4949;
+  font-size: 1.4em;
+}
+.btnCalend{
+  width: 50%;
+  padding: 1.1em;
+  background-color: #cfcbcb;
+  border: #cfcbcb;
+  color: #4c4949;
+  font-size: 1.4em;
+}
+.btnCalend:hover{
+  color: white;
+}
+.kalendar{
+  background-color: #cfcbcb;
+}
+
+
+/* formulaires */
+.form-control{
+  height: 3.9em;
+  border: 2px solid #888888;
+}
+.civil{
+  float: left;
+  padding-right: 50px;
+  font-size: 1.4em;
+}
+.form-control::placeholder{
+  color: #BFC2AE;
+}
+label{
+  font-size: 1.4em;
+}
+.custom-control-label{
+  font-size: 1em;
+  color: #F3969A;
+}
+.inscrir{
+padding-top: 70px;
+font-size: 1.1em;
+}
+.invalid-feedback{
+  display: block;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-11, .bgimg-4, .bgimg-22{
+    background-attachment: scroll;
+  }
+
+  .seance, .bilan{
+    padding-left: 0;
+  }
+  .btn1, .btn2{
+    margin-top: 0;
+  }
+  .h2{
+    padding-top: 0px;
+    font-size: 1.7em;
+    color: white;
+  }
+  .dropdown-menu{
+    margin-left: 0;
+  }
+  .cont{
+    margin-left: 0;
+    margin-top:50px;
+  }
+  .proverbe, .ensemble{
+    padding-top: 0;
+  }
+}
